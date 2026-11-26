@@ -3,12 +3,13 @@
   "services": {
     "app": {
       "root": ".",
-      "framework": "vite"
+      "framework": "vite",
+      "outputDirectory": "out/renderer"
     },
     "blog": {
       "root": "blog",
       "framework": "eleventy",
-      "outputDirectory": "dist"
+      "outputDirectory": "_site"
     }
   },
   "rewrites": [
