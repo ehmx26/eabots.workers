@@ -7,7 +7,8 @@
     },
     "blog": {
       "root": "blog",
-      "framework": "eleventy"
+      "framework": "eleventy",
+      "outputDirectory": "dist"
     }
   },
   "rewrites": [
